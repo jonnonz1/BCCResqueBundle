@@ -26,6 +26,7 @@ class StartWorkerCommand extends ContainerAwareCommand
 
     protected function execute(InputInterface $input, OutputInterface $output)
     {
+        // hello fork
         $env = array();
 
         // here to work around issues with pcntl and cli_set_process_title in PHP > 5.5
